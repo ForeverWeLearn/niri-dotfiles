@@ -1,0 +1,124 @@
+#!/usr/bin/python
+import argparse
+import configparser
+import os
+import subprocess
+from io import StringIO
+from pathlib import Path
+
+import json5
+
+WALLPAPER_BASE_DIR = Path("~/Pictures/Wallpapers").expanduser()
+WALLPAPER_TARGET_LINK = WALLPAPER_BASE_DIR / "Current"
+VSCODE_SETTINGS_PATH = Path("~/.config/Code/User/settings.json").expanduser()
+BTOP_SETTINGS_PATH = Path("~/.config/btop/btop.conf").expanduser()
+
+THEME_CATPPUCCIN = "catppuccin"
+THEME_GRUVBOX = "gruvbox"
+THEME_EVERFOREST = "everforest"
+THEMES = [THEME_CATPPUCCIN, THEME_GRUVBOX, THEME_EVERFOREST]
+
+NOCTALIA_THEME_MAP = {
+    THEME_CATPPUCCIN: "Catppuccin",
+    THEME_GRUVBOX: "Gruvbox",
+    THEME_EVERFOREST: "Everforest",
+}
+
+VSCODE_THEME_MAP = {
+    THEME_CATPPUCCIN: "Catppuccin Mocha",
+    THEME_GRUVBOX: "Gruvbox Dark Medium",
+    THEME_EVERFOREST: "Everforest Pro Dark Vibrant",
+}
+
+BTOP_THEME_MAP = {
+    THEME_CATPPUCCIN: "catppuccin_macchiato",
+    THEME_GRUVBOX: "gruvbox_material_dark",
+    THEME_EVERFOREST: "everforest-dark-medium",
+}
+
+
+def update_vscode_theme(theme_key: str):
+    target_theme = VSCODE_THEME_MAP[theme_key]
+    try:
+        with open(VSCODE_SETTINGS_PATH, "r") as f:
+            data = json5.load(f)
+
+        if data.get("workbench.colorTheme") == target_theme:
+            print(f"[VSCODE] Already set to '{target_theme}'.")
+            return
+
+        data["workbench.colorTheme"] = target_theme
+        with open(VSCODE_SETTINGS_PATH, "w") as f:
+            json5.dump(data, f, indent=4, quote_keys=True)
+        print(f'[VSCODE] Updated to: "{target_theme}"')
+    except Exception as e:
+        print(f"[ERROR] VSCode update failed: {e}")
+
+
+def update_btop_theme(theme_key: str):
+    target_theme = f'"{BTOP_THEME_MAP[theme_key]}"'
+    if not os.path.exists(BTOP_SETTINGS_PATH):
+        print(f"[ERROR] btop config not found at {BTOP_SETTINGS_PATH}")
+        return
+
+    try:
+        config = configparser.ConfigParser(interpolation=None)
+
+        with open(BTOP_SETTINGS_PATH, "r") as f:
+            config_string = "[root]\n" + f.read()
+
+        config.read_string(config_string)
+
+        config.set("root", "color_theme", target_theme)
+
+        with open(BTOP_SETTINGS_PATH, "w") as f:
+            out = StringIO()
+            config.write(out)
+            content = out.getvalue().replace("[root]\n", "", 1).strip()
+            f.write(content + "\n")
+
+        print(f"[BTOP] Updated to: {target_theme}")
+
+    except Exception as e:
+        print(f"[ERROR] btop update failed: {e}")
+
+
+def update_noctalia_theme(theme_key: str):
+    subprocess.run(
+        f'qs -c noctalia-shell ipc call colorScheme set "{NOCTALIA_THEME_MAP[theme_key]}"',
+        shell=True,
+    )
+
+
+def update_themes(theme_key: str):
+    update_noctalia_theme(theme_key)
+    update_vscode_theme(theme_key)
+    update_btop_theme(theme_key)
+
+
+def update_wallpaper(theme_key: str):
+    wallpaper_dir = WALLPAPER_BASE_DIR / NOCTALIA_THEME_MAP[theme_key]
+    if not os.path.exists(wallpaper_dir):
+        print(
+            f"[WARN] Directory {wallpaper_dir} does not exist. Keep current wallpaper folder."
+        )
+    else:
+        subprocess.run(
+            f'ln -srfn "{wallpaper_dir}" "{WALLPAPER_TARGET_LINK}"', shell=True
+        )
+        subprocess.run("random-wallpaper")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Set full desktop theme.")
+    parser.add_argument("theme", nargs="+", help=f"Available: {', '.join(THEMES)}")
+
+    args = parser.parse_args()
+    theme_key = " ".join(args.theme)
+
+    if theme_key in THEMES:
+        update_themes(theme_key)
+        update_wallpaper(theme_key)
+    else:
+        print(f"[ERROR] '{theme_key}' not found in theme maps.")
+        parser.print_help()
