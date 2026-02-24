@@ -6,13 +6,13 @@
 
 &nbsp;
 
-<h3 align="center">_ SCREENSHOT _</h3>
+<h3 align="center">_ SCREENSHOT _</h3><br/>
 
 <table>
 <tr>
 <td colspan="2" valign="top" width="52%">
     <a href="./assets/imgs/screenshot-00.png"><img src="./assets/imgs/screenshot-00.png" alt="Fullscreen" /></a>
-    <p align="center"><sup>Fullscreen</sup></p>
+    <p align="center"><sup>Fullscreen</sup></p><br/>
 </td>
 </tr>
 <tr>
@@ -36,7 +36,7 @@
 
 <h3 align="center">_ OVERVIEW _</h3>
 
-### System
+#### System
 
 - Distro: [**CachyOS**](https://cachyos.org/)
 - Window Manager: [**Niri**](https://github.com/YaLTeR/niri) `niri`
@@ -46,7 +46,7 @@
 - Plymouth: `plymouth-theme-bgrt-no-watermark`
 - Display Manager: `gdm`
 
-### Applications
+#### Applications
 
 - Shell: [**fish**](https://fishshell.com/docs/current/) `fish`
 - Terminal: [**Kitty**](https://sw.kovidgoyal.net/kitty/) `kitty`
@@ -59,7 +59,7 @@
 - System Monitor: [**btop**](https://github.com/aristocratos/btop) `btop`
 - Discord Client: [**Vesktop**](https://vesktop.dev/) `vesktop`
 
-### Others
+#### Others
 
 - Password Manager: `bitwarden`
 - Fonts: `ttf-jetbrains-mono` `ttf-jetbrains-mono-nerd`
