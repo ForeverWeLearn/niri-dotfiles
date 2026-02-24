@@ -1,15 +1,20 @@
 <h1 align="center"><strong>Niri ● files</strong></h1>
-<p align="center"><i><sub>My daily drive <strong>Niri</strong> dotfiles. Minimal, aesthetic and avoid config overhead.</sub></i></p>
+&nbsp;
+<p align="center"><i>My daily drive <strong>Niri</strong> dotfiles. Minimal, aesthetic and avoid config overhead.</i></p>
+
+&nbsp;
 
 &nbsp;
 
 <h3 align="center">_ SCREENSHOT _</h3>
-<div align="center">
-    <a href="./assets/imgs/screenshot-00.png"><img src="./assets/imgs/screenshot-00.png" alt="Fullscreen" /></a>
-    <sup>Fullscreen</sup><br><br/>
-</div>
 
 <table>
+<tr>
+<td colspan="2" valign="top" width="52%">
+    <a href="./assets/imgs/screenshot-00.png"><img src="./assets/imgs/screenshot-00.png" alt="Fullscreen" /></a>
+    <p align="center"><sup>Fullscreen</sup></p>
+</td>
+</tr>
 <tr>
 <td valign="top" width="52%">
     <a href="./assets/imgs/nautilus-00.png"><img src="./assets/imgs/nautilus-00.png" alt="Nautilus"/></a>
@@ -24,6 +29,8 @@
 </table>
 
 <p align="center"><i><sup>And more...</sup></i></p>
+
+&nbsp;
 
 &nbsp;
 
