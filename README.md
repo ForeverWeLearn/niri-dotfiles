@@ -1,6 +1,9 @@
-<h1 align="center"><strong>Niri ● files</strong></h1>
+<h1 align="center">
+    <img src="./assets/imgs/icon.svg" alt="Icon" width="150" /><br/>
+    <strong>Niri⚬files</strong>
+</h1>
 &nbsp;
-<p align="center"><i>My daily drive <strong>Niri</strong> dotfiles. Minimal, aesthetic and avoid config overhead.</i></p>
+<p align="center"><i>My daily drive Niri dotfiles. Minimal, aesthetic and avoid overhead.</i></p>
 
 &nbsp;
 
@@ -28,6 +31,7 @@
 </td>
 </table>
 
+<br/>
 <p align="center"><i><sup>And more...</sup></i></p>
 
 &nbsp;
