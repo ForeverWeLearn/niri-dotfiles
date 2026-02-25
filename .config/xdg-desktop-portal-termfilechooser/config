@@ -1,6 +1,6 @@
 [filechooser]
 create_help_file=0
-default_dir=$HOME/Downloads
+default_dir=$HOME
 cmd=yazi-wrapper
 env=TERMCMD=kitty --class yazi-wrapper
 
