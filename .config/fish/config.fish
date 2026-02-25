@@ -1,8 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 alias cls="clear"
-alias pls="sudo"
-alias sude="sudo -E"
+alias pls="sudo -E"
 
 starship init fish | source
 zoxide init fish | source
