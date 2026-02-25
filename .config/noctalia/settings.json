@@ -491,7 +491,7 @@
         "bluetoothHideUnnamedDevices": false,
         "boxBorderEnabled": false,
         "fontDefault": "JetBrains Mono Medium",
-        "fontDefaultScale": 1,
+        "fontDefaultScale": 0.9,
         "fontFixed": "JetBrains Mono Medium",
         "fontFixedScale": 1,
         "networkPanelView": "wifi",

@@ -5,7 +5,7 @@
 !**/.gitignore
 
 !/README.md
-!assets/imgs/*
+!assets/**/*
 
 !.config/btop/themes/*.theme
 !.config/btop/btop.conf
