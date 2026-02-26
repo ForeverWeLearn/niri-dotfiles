@@ -8,7 +8,7 @@ animations {
     }
 
     window-close {
-        spring damping-ratio=0.75 stiffness=800 epsilon=0.0001
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
     }
 
     horizontal-view-movement {
@@ -32,6 +32,6 @@ animations {
     }
 
     exit-confirmation-open-close {
-        spring damping-ratio=0.4 stiffness=500 epsilon=0.01
+        spring damping-ratio=0.4 stiffness=500 epsilon=0.001
     }
 }

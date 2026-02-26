@@ -12,7 +12,7 @@ animations {
     }
 
     window-open {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=500 epsilon=0.0001
     }
 
     window-close {
@@ -20,11 +20,11 @@ animations {
     }
 
     window-movement {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=400 epsilon=0.0001
     }
 
     window-resize {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=400 epsilon=0.0001
     }
 
     config-notification-open-close {
