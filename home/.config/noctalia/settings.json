@@ -115,7 +115,13 @@
             ],
             "right": [
                 {
+                    "id": "plugin:privacy-indicator"
+                },
+                {
                     "id": "plugin:screen-recorder"
+                },
+                {
+                    "id": "plugin:update-count"
                 },
                 {
                     "displayMode": "onhover",
