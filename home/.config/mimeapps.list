@@ -49,7 +49,7 @@ text/markdown=code.desktop;
 x-scheme-handler/chrome=zen.desktop;
 x-scheme-handler/http=zen.desktop;
 x-scheme-handler/https=zen.desktop;
-video/mp4=vlc.desktop;org.gnome.Showtime.desktop;
+video/mp4=qimgv.desktop;
 image/jpeg=qimgv.desktop;
 
 [Default Applications]
@@ -109,4 +109,4 @@ x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
 x-scheme-handler/http=zen.desktop
 x-scheme-handler/https=zen.desktop
 x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
-video/mp4=org.gnome.Showtime.desktop
+video/mp4=qimgv.desktop
