@@ -111,7 +111,7 @@ layout {
         hide-when-single-tab
         corner-radius 4
         width 4
-        position "top"
+        position "left"
         length total-proportion=0.95
         gap 3
         gaps-between-tabs 3
