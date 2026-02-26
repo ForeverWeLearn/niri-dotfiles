@@ -8,8 +8,20 @@ binds {
     Mod+Shift+Slash     hotkey-overlay-title="Niri Keymap"          { spawn-sh "qs -c noctalia-shell ipc call plugin:keybind-cheatsheet toggle"; }
     Mod+Tab             hotkey-overlay-title="Overview"             { toggle-overview; }
     Mod+Q               hotkey-overlay-title="Close window"         { close-window; }
-    Mod+P               hotkey-overlay-title="Lock screen"          { spawn "hyprlock"; }
     Mod+Delete          hotkey-overlay-title="Quit Niri"            { quit; }
+
+
+    // #"Noctalia"
+    Mod+I               hotkey-overlay-title="Settings"             { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
+    Mod+Space           hotkey-overlay-title="Launcher"             { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Mod+Grave           hotkey-overlay-title="Control Center"       { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
+    Mod+N               hotkey-overlay-title="Notification"         { spawn-sh "qs -c noctalia-shell ipc call notifications toggleHistory"; }
+    Mod+V               hotkey-overlay-title="Clipboard"            { spawn-sh "qs -c noctalia-shell ipc call launcher clipboard"; }
+    Mod+B               hotkey-overlay-title="Battery"              { spawn-sh "qs -c noctalia-shell ipc call battery togglePanel"; }
+    Mod+Slash           hotkey-overlay-title="Emoji"                { spawn-sh "qs -c noctalia-shell ipc call launcher emoji"; }
+    Mod+Shift+N         hotkey-overlay-title="Network"              { spawn-sh "qs -c noctalia-shell ipc call network togglePanel"; }
+    Mod+Shift+S         hotkey-overlay-title="Session Menu"         { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+    Mod+Shift+R         hotkey-overlay-title="Screencast"           { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-recorder toggle"; }
 
 
     // #"Apps"
@@ -24,22 +36,15 @@ binds {
     Mod+Alt+Y           hotkey-overlay-title="Yazi as root"         { spawn-sh "kitty --class yazi -e sudo -E yazi ~/Downloads"; }
 
 
-    // #"Tools"
+    // #"Utils"
+    Mod+P               hotkey-overlay-title="Lock screen"          { spawn "hyprlock"; }
     Mod+Shift+C         hotkey-overlay-title="Color picker"         { spawn-sh "hyprpicker | wl-copy"; }
+
+
+    // #"Theme"
     Mod+0               hotkey-overlay-title="Random Wallpaper"     { spawn "rdwal"; }
-
-
-    // #"Noctalia"
-    Mod+I               hotkey-overlay-title="Settings"             { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
-    Mod+Space           hotkey-overlay-title="Launcher"             { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-    Mod+Grave           hotkey-overlay-title="Control Center"       { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
-    Mod+N               hotkey-overlay-title="Notification"         { spawn-sh "qs -c noctalia-shell ipc call notifications toggleHistory"; }
-    Mod+V               hotkey-overlay-title="Clipboard"            { spawn-sh "qs -c noctalia-shell ipc call launcher clipboard"; }
-    Mod+B               hotkey-overlay-title="Battery"              { spawn-sh "qs -c noctalia-shell ipc call battery togglePanel"; }
-    Mod+Slash           hotkey-overlay-title="Emoji"                { spawn-sh "qs -c noctalia-shell ipc call launcher emoji"; }
-    Mod+Shift+N         hotkey-overlay-title="Network"              { spawn-sh "qs -c noctalia-shell ipc call network togglePanel"; }
-    Mod+Shift+S         hotkey-overlay-title="Session Menu"         { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
-    Mod+Shift+R         hotkey-overlay-title="Screencast"           { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-recorder toggle"; }
+    Mod+1               hotkey-overlay-title="Theme Catppuccin"     { spawn-sh "theme.py Catppuccin"; }
+    Mod+2               hotkey-overlay-title="Theme Gruvbox"        { spawn-sh "theme.py Gruvbox"; }
 
 
     // #"Focus"
@@ -63,19 +68,6 @@ binds {
     Mod+BracketRight            hotkey-overlay-title="Join →"               { consume-or-expel-window-right; }
     Mod+Comma                   hotkey-overlay-title="Consume █ ←"          { consume-window-into-column; }
     Mod+Period                  hotkey-overlay-title="Expel █ →"            { expel-window-from-column; }
-
-
-    // #"Workspace"
-    Mod+1                       hotkey-overlay-title="Focus workspace 1"                { focus-workspace 1; }
-    Mod+2                       hotkey-overlay-title="Focus workspace 2"                { focus-workspace 2; }
-    Mod+3                       hotkey-overlay-title="Focus workspace 3"                { focus-workspace 3; }
-    Mod+4                       hotkey-overlay-title="Focus workspace 4"                { focus-workspace 4; }
-    Mod+5                       hotkey-overlay-title="Focus workspace 5"                { focus-workspace 5; }
-    Mod+Shift+1                 hotkey-overlay-title="Move window to workspace 1"       { move-column-to-workspace 1; }
-    Mod+Shift+2                 hotkey-overlay-title="Move window to workspace 2"       { move-column-to-workspace 2; }
-    Mod+Shift+3                 hotkey-overlay-title="Move window to workspace 3"       { move-column-to-workspace 3; }
-    Mod+Shift+4                 hotkey-overlay-title="Move window to workspace 4"       { move-column-to-workspace 4; }
-    Mod+Shift+5                 hotkey-overlay-title="Move window to workspace 5"       { move-column-to-workspace 5; }
 
 
     // #"Resize"
