@@ -26,7 +26,8 @@
 !home/.config/niri/**/*.kdl
 
 # noctalia
-!home/.config/noctalia/**/*
+!home/.config/noctalia/templates/*
+!home/.config/noctalia/*
 
 # qimgv
 !home/.config/qimgv/qimgv.conf
