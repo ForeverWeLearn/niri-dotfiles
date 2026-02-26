@@ -7,7 +7,7 @@ starship init fish | source
 zoxide init fish | source
 
 function fish_greeting
-    catnap
+    catnap -d none
 end
 
 function y
