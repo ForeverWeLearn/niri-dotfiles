@@ -10,6 +10,9 @@
 # btop
 !home/.config/btop/**/*
 
+# VSCode
+!home/.config/Code/User/*
+
 # fish
 !home/.config/fish/config.fish
 
