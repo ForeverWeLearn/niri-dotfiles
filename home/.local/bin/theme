@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PICKED=$(gum choose --header "Select theme:" "🐱 Catppuccin" "📦 Gruvbox" "🌲 Everforest")
+
+[[ -z "$PICKED" ]] && exit 0
+
+echo "$PICKED"
+
+THEME="${PICKED#* }"
+
+theme.py $THEME

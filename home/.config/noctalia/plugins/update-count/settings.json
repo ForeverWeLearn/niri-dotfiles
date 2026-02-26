@@ -1,0 +1,8 @@
+{
+  "updateIntervalMinutes": 30,
+  "updateTerminalCommand": "kitty -e",
+  "currentIconName": "package",
+  "hideOnZero": true,
+  "customCmdGetNumUpdates": "",
+  "customCmdDoSystemUpdate": ""
+}

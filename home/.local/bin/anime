@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PICKED=$(gum choose --header "Select anime:" "☕ Coffee" "🐤 Chill" "🌸 Spring")
+
+[[ -z "$PICKED" ]] && exit 0
+
+echo "$PICKED"
+
+ANIME="${PICKED#* }"
+
+anime.py $ANIME

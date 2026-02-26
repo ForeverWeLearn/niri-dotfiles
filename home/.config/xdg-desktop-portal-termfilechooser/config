@@ -1,0 +1,9 @@
+[filechooser]
+create_help_file=0
+default_dir=$HOME
+cmd=yazi-wrapper
+env=TERMCMD=kitty --class yazi-wrapper
+
+; suggested | default | last
+open_mode=suggested
+save_mode=last

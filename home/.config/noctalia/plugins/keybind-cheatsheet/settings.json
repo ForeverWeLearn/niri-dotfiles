@@ -1,0 +1,470 @@
+{
+  "cheatsheetData": [
+    {
+      "title": "General",
+      "binds": [
+        {
+          "keys": "Super + Shift + Slash",
+          "desc": "Keybind Cheatsheet"
+        },
+        {
+          "keys": "Super + Tab",
+          "desc": "Toggle overview"
+        },
+        {
+          "keys": "Super + Q",
+          "desc": "Close window"
+        },
+        {
+          "keys": "Super + P",
+          "desc": "Lock screen"
+        },
+        {
+          "keys": "Super + Shift + C",
+          "desc": "Color picker"
+        },
+        {
+          "keys": "Super + Delete",
+          "desc": "Quit Niri"
+        }
+      ]
+    },
+    {
+      "title": "Apps",
+      "binds": [
+        {
+          "keys": "Super + Escape",
+          "desc": "Btop"
+        },
+        {
+          "keys": "Super + Return",
+          "desc": "Kitty"
+        },
+        {
+          "keys": "Super + G",
+          "desc": "Zen Browser"
+        },
+        {
+          "keys": "Super + Shift + G",
+          "desc": "Chrome"
+        },
+        {
+          "keys": "Super + D",
+          "desc": "Vesktop"
+        },
+        {
+          "keys": "Super + C",
+          "desc": "Code"
+        },
+        {
+          "keys": "Super + E",
+          "desc": "Nautilus"
+        },
+        {
+          "keys": "Super + Y",
+          "desc": "Yazi"
+        },
+        {
+          "keys": "Super + Shift + Y",
+          "desc": "Sudo Yazi"
+        }
+      ]
+    },
+    {
+      "title": "Noctalia",
+      "binds": [
+        {
+          "keys": "Super + Space",
+          "desc": "Launcher"
+        },
+        {
+          "keys": "Super + I",
+          "desc": "Settings"
+        },
+        {
+          "keys": "Super + N",
+          "desc": "Notification"
+        },
+        {
+          "keys": "Super + V",
+          "desc": "Clipboard"
+        },
+        {
+          "keys": "Super + B",
+          "desc": "Battery"
+        },
+        {
+          "keys": "Super + M",
+          "desc": "Media"
+        },
+        {
+          "keys": "Super + Slash",
+          "desc": "Emoji"
+        },
+        {
+          "keys": "Super + Shift + T",
+          "desc": "Todo"
+        },
+        {
+          "keys": "Super + Shift + W",
+          "desc": "Network"
+        },
+        {
+          "keys": "Super + Shift + B",
+          "desc": "Bluetooth"
+        },
+        {
+          "keys": "Super + Shift + Q",
+          "desc": "Session Menu"
+        },
+        {
+          "keys": "Super + Shift + N",
+          "desc": "Night Light"
+        }
+      ]
+    },
+    {
+      "title": "Animation",
+      "binds": [
+        {
+          "keys": "Super + Alt + 0",
+          "desc": "Default"
+        },
+        {
+          "keys": "Super + Alt + 1",
+          "desc": "Coffee"
+        },
+        {
+          "keys": "Super + Alt + 4",
+          "desc": "Chill"
+        },
+        {
+          "keys": "Super + Alt + 3",
+          "desc": "Spring"
+        }
+      ]
+    },
+    {
+      "title": "Theme & Wallpaper",
+      "binds": [
+        {
+          "keys": "Ctrl + Shift + 0",
+          "desc": "Random Wallpaper"
+        },
+        {
+          "keys": "Ctrl + Shift + 1",
+          "desc": "Theme Catppuccin"
+        },
+        {
+          "keys": "Ctrl + Shift + 2",
+          "desc": "Theme Gruvbox"
+        },
+        {
+          "keys": "Ctrl + Shift + 3",
+          "desc": "Theme Everforest"
+        }
+      ]
+    },
+    {
+      "title": "Focus",
+      "binds": [
+        {
+          "keys": "Super + H",
+          "desc": "Focus window left"
+        },
+        {
+          "keys": "Super + L",
+          "desc": "Focus window right"
+        },
+        {
+          "keys": "Super + K",
+          "desc": "Focus window up"
+        },
+        {
+          "keys": "Super + J",
+          "desc": "Focus window down"
+        },
+        {
+          "keys": "Super + Left",
+          "desc": "Focus window left"
+        },
+        {
+          "keys": "Super + Right",
+          "desc": "Focus window right"
+        },
+        {
+          "keys": "Super + Up",
+          "desc": "Focus window up"
+        },
+        {
+          "keys": "Super + Down",
+          "desc": "Focus window down"
+        }
+      ]
+    },
+    {
+      "title": "Layout",
+      "binds": [
+        {
+          "keys": "Super + T",
+          "desc": "Toggle floating"
+        },
+        {
+          "keys": "Super + U",
+          "desc": "Cycle focus layout"
+        }
+      ]
+    },
+    {
+      "title": "Workspace",
+      "binds": [
+        {
+          "keys": "Super + 0",
+          "desc": "Focus workspace 0"
+        },
+        {
+          "keys": "Super + 1",
+          "desc": "Focus workspace 1"
+        },
+        {
+          "keys": "Super + 2",
+          "desc": "Focus workspace 2"
+        },
+        {
+          "keys": "Super + 3",
+          "desc": "Focus workspace 3"
+        },
+        {
+          "keys": "Super + 4",
+          "desc": "Focus workspace 4"
+        },
+        {
+          "keys": "Super + 5",
+          "desc": "Focus workspace 5"
+        },
+        {
+          "keys": "Super + 6",
+          "desc": "Focus workspace 6"
+        },
+        {
+          "keys": "Super + 7",
+          "desc": "Focus workspace 7"
+        },
+        {
+          "keys": "Super + 8",
+          "desc": "Focus workspace 8"
+        },
+        {
+          "keys": "Super + 9",
+          "desc": "Focus workspace 9"
+        },
+        {
+          "keys": "Super + Shift + 0",
+          "desc": "Move window to workspace 0"
+        },
+        {
+          "keys": "Super + Shift + 1",
+          "desc": "Move window to workspace 1"
+        },
+        {
+          "keys": "Super + Shift + 2",
+          "desc": "Move window to workspace 2"
+        },
+        {
+          "keys": "Super + Shift + 3",
+          "desc": "Move window to workspace 3"
+        },
+        {
+          "keys": "Super + Shift + 4",
+          "desc": "Move window to workspace 4"
+        },
+        {
+          "keys": "Super + Shift + 5",
+          "desc": "Move window to workspace 5"
+        },
+        {
+          "keys": "Super + Shift + 6",
+          "desc": "Move window to workspace 6"
+        },
+        {
+          "keys": "Super + Shift + 7",
+          "desc": "Move window to workspace 7"
+        },
+        {
+          "keys": "Super + Shift + 8",
+          "desc": "Move window to workspace 8"
+        },
+        {
+          "keys": "Super + Shift + 9",
+          "desc": "Move window to workspace 9"
+        },
+        {
+          "keys": "Super + Alt + K",
+          "desc": "Move workspace up"
+        },
+        {
+          "keys": "Super + Alt + J",
+          "desc": "Move workspace down"
+        }
+      ]
+    },
+    {
+      "title": "Resize window",
+      "binds": [
+        {
+          "keys": "F11",
+          "desc": "Fullscreen"
+        },
+        {
+          "keys": "Super + F",
+          "desc": "Maximize"
+        },
+        {
+          "keys": "Super + Shift + F",
+          "desc": "Expand width"
+        },
+        {
+          "keys": "Super + R",
+          "desc": "Cycle width"
+        },
+        {
+          "keys": "Super + Minus",
+          "desc": "Decrease width"
+        },
+        {
+          "keys": "Super + Equal",
+          "desc": "Increase width"
+        },
+        {
+          "keys": "Super + Shift + Minus",
+          "desc": "Decrease height"
+        },
+        {
+          "keys": "Super + Shift + Equal",
+          "desc": "Increase height"
+        }
+      ]
+    },
+    {
+      "title": "Move window",
+      "binds": [
+        {
+          "keys": "Super + Shift + H",
+          "desc": "Move left"
+        },
+        {
+          "keys": "Super + Shift + L",
+          "desc": "Move right"
+        },
+        {
+          "keys": "Super + Shift + K",
+          "desc": "Move up"
+        },
+        {
+          "keys": "Super + Shift + J",
+          "desc": "Move down"
+        },
+        {
+          "keys": "Super + Shift + Left",
+          "desc": "Move left"
+        },
+        {
+          "keys": "Super + Shift + Right",
+          "desc": "Move right"
+        },
+        {
+          "keys": "Super + Shift + Up",
+          "desc": "Move up"
+        },
+        {
+          "keys": "Super + Shift + Down",
+          "desc": "Move down"
+        },
+        {
+          "keys": "Super + Ctrl + H",
+          "desc": "Move left"
+        },
+        {
+          "keys": "Super + Ctrl + L",
+          "desc": "Move right"
+        },
+        {
+          "keys": "Super + Ctrl + K",
+          "desc": "Move up"
+        },
+        {
+          "keys": "Super + Ctrl + J",
+          "desc": "Move down"
+        },
+        {
+          "keys": "Super + Ctrl + Left",
+          "desc": "Move left"
+        },
+        {
+          "keys": "Super + Ctrl + Right",
+          "desc": "Move right"
+        },
+        {
+          "keys": "Super + Ctrl + Up",
+          "desc": "Move up"
+        },
+        {
+          "keys": "Super + Ctrl + Down",
+          "desc": "Move down"
+        }
+      ]
+    },
+    {
+      "title": "Stack",
+      "binds": [
+        {
+          "keys": "Alt + Tab",
+          "desc": "Cycle stack"
+        },
+        {
+          "keys": "Super + Z",
+          "desc": "Toggle stack mode"
+        },
+        {
+          "keys": "Super + BracketLeft",
+          "desc": "Stack to left"
+        },
+        {
+          "keys": "Super + BracketRight",
+          "desc": "Stack to right"
+        },
+        {
+          "keys": "Super + Comma",
+          "desc": "Consume window"
+        },
+        {
+          "keys": "Super + Period",
+          "desc": "Expel window"
+        }
+      ]
+    },
+    {
+      "title": "Screenshot",
+      "binds": [
+        {
+          "keys": "Super + S",
+          "desc": "Screen screenshot"
+        },
+        {
+          "keys": "Super + Shift + S",
+          "desc": "Window screenshot"
+        },
+        {
+          "keys": "Super + Ctrl + S",
+          "desc": "Manual screenshot"
+        }
+      ]
+    }
+  ],
+  "detectedCompositor": "niri",
+  "niriConfigPath": "~/.config/niri/config.kdl",
+  "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
+  "modKeyVariable": "$mod",
+  "windowHeight": 850,
+  "windowWidth": 1400
+}

@@ -7,30 +7,49 @@
 !/README.md
 !assets/**/*
 
-!.config/btop/themes/*.theme
-!.config/btop/btop.conf
-!.config/fastfetch/config.jsonc
-!.config/fish/config.fish
-!.config/hypr/hyprlock.conf
-!.config/kitty/kitty.conf
-!.config/niri/**/*.kdl
-n.config/iri/noctalia.kdl
-!.config/noctalia/settings.json
-!.config/noctalia/user-templates.toml
-!.config/nvim/lua/**/*
-!.config/nvim/lazyvim.json
-!.config/nvim/init.lua
-!.config/nvim/stylua.toml
-!.config/qimgv/qimgv.conf
-!.config/scripts/**/*
-!.config/vesktop/settings/quickCss.css
-!.config/vesktop/themes/*.css
-!.config/vlc/*
-!.config/xdg-desktop-portal/portals.conf
-!.config/xdg-desktop-portal-termfilechooser/config
-!.config/yazi/plugins/**/*
-!.config/yazi/*
-!.config/user-dirs.dirs
-!.config/mimeapps.list
-!.config/starship.toml
-!.local/bin/*
+# btop
+!home/.config/btop/**/*
+
+# fish
+!home/.config/fish/config.fish
+
+# helix
+!home/.config/helix/**/*
+
+# hypr
+!home/.config/hypr/**/*
+
+# kitty
+!home/.config/kitty/**/*
+
+# niri
+!home/.config/niri/**/*.kdl
+
+# noctalia
+!home/.config/noctalia/**/*
+
+# qimgv
+!home/.config/qimgv/qimgv.conf
+
+# starship
+!home/.config/starship/*
+!home/.config/starship.toml
+
+# vesktop
+!home/.config/vesktop/settings/quickCss.css
+!home/.config/vesktop/themes/*.css
+
+# xdg-desktop-portal
+!home/.config/xdg-desktop-portal/portals.conf
+!home/.config/xdg-desktop-portal-termfilechooser/config
+
+# yazi
+!home/.config/yazi/**/*
+
+!home/.config/user-dirs.dirs
+!home/.config/mimeapps.list
+
+!home/.local/bin/*
+
+!home/Pictures/Avatar/*
+!home/Pictures/Wallpapers/**/*

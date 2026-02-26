@@ -128,7 +128,7 @@
 
 <tr>
     <th colspan="4">
-        <p align="center">UI Choice</p>
+        <p align="center">UI</p>
     </th>
 </tr>
 
@@ -172,16 +172,24 @@
 
 &nbsp;
 
-<h3 align="center">_ CHILL _</h3>
+<h3 align="center">_ SETUP _</h3>
 
 &nbsp;
 
-#### Prepare your coffee ☕
+#### Prepare
 
-This document try to be beginner friendly. So...
+Clone the repository:
 
-*I assume you are NOT a ***Super-Pro-Max-Mega-Ultimate Arch user***, you mustn't know everything listed here. But at least, you should have a working Arch-based system installed by your self (eg: CachyOS, Manjaro, EndeavourOS...).*
+```bash
+git clone https://github.com/ForeverWeLearn/niri-dotfiles.git ~/.config/niri-dotfiles
+```
+
+Go to cloned repository:
+```bash
+cd ~/.config/niri-dotfiles
+```
 
 &nbsp;
 
-... to be continued
+#### Install
+
