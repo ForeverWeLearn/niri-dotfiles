@@ -18,25 +18,21 @@ STARSHIP_SETTINGS_PATH = Path("~/.config/starship.toml").expanduser()
 
 THEME_CATPPUCCIN = "Catppuccin"
 THEME_GRUVBOX = "Gruvbox"
-THEME_EVERFOREST = "Everforest"
-THEMES = [THEME_CATPPUCCIN, THEME_GRUVBOX, THEME_EVERFOREST]
+THEMES = [THEME_CATPPUCCIN, THEME_GRUVBOX]
 
 NOCTALIA_THEME_MAP = {
     THEME_CATPPUCCIN: "Catppuccin",
     THEME_GRUVBOX: "Gruvbox",
-    THEME_EVERFOREST: "Everforest",
 }
 
 VSCODE_THEME_MAP = {
     THEME_CATPPUCCIN: "Catppuccin Mocha",
     THEME_GRUVBOX: "Gruvbox Dark Medium",
-    THEME_EVERFOREST: "Everforest Pro Dark Vibrant",
 }
 
 BTOP_THEME_MAP = {
     THEME_CATPPUCCIN: "catppuccin_mocha",
     THEME_GRUVBOX: "gruvbox_material_dark",
-    THEME_EVERFOREST: "everforest-dark-medium",
 }
 
 
