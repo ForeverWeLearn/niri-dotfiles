@@ -205,57 +205,79 @@ If you are familar with _dotfiles_ (`~/.config`, `~/.local/bin`...), just clone 
 git clone https://github.com/ForeverWeLearn/niri-dotfiles.git
 ```
 
-And copy them from `home/.config` to your `~/.config`:
+And copy them from `src/.config` to your `~/.config`:
 
 &nbsp;
 
 ##### 🔥 niri
 
-`home/.config/niri` -> `~/.config/niri`
+`src/.config/niri` -> `~/.config/niri`
 
 &nbsp;
 
 ##### 🦉 Noctalia
 
-`home/.config/noctalia` -> `~/.config/noctalia`
+`src/.config/noctalia` -> `~/.config/noctalia`
 
 &nbsp;
 
 ##### 😽 kitty
 
-`home/.config/kitty` -> `~/.config/kitty`
+`src/.config/kitty` -> `~/.config/kitty`
 
 &nbsp;
 
 #### 🖼️ Wallpapers
 
-`home/Pictures/Wallpapers`
+`src/Pictures/Wallpapers`
 
 <table>
 
 <tr>
-    <th colspan="99"><p align="center">Catppuccin</p></th>
+    <th colspan="99"><p align="center">🐱 Catppuccin</p></th>
 </tr>
 
 <tr>
     <td>
-        <img src="./home/Pictures/Wallpapers/Catppuccin/train-sideview.webp" />
+        <img src="src/Pictures/Wallpapers/Catppuccin/train-sideview.webp" />
     <td/>
     <td>
-        <img src="./home/Pictures/Wallpapers/Catppuccin/evening-sky.webp" />
+        <img src="src/Pictures/Wallpapers/Catppuccin/evening-sky.webp" />
     </td>
     <td>
-        <img src="./home/Pictures/Wallpapers/Catppuccin/jupiter.webp" />
+        <img src="src/Pictures/Wallpapers/Catppuccin/jupiter.webp" />
     </td>
 </tr>
 
 </table>
 
+<table>
+
+<tr>
+    <th colspan="99"><p align="center">📦 Gruvbox</p></th>
+</tr>
+
+<tr>
+    <td>
+        <img src="src/Pictures/Wallpapers/Gruvbox/sushi.webp" />
+    <td/>
+    <td>
+        <img src="src/Pictures/Wallpapers/Gruvbox/kita.webp" />
+    </td>
+    <td>
+        <img src="src/Pictures/Wallpapers/Gruvbox/platform.webp" />
+    </td>
+</tr>
+
+</table>
+
+<table>
+
 &nbsp;
 
 #### 😹 Stuffs
 
-Custom scripts: `home/.local/bin`
+Custom scripts: `src/.local/bin`
 
 ##### 🎨 `theme`
 

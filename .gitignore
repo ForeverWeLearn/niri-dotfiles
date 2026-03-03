@@ -8,52 +8,52 @@
 !assets/**/*
 
 # btop
-!home/.config/btop/**/*
+!src/.config/btop/**/*
 
 # VSCode
-!home/.config/Code/User/*
+!src/.config/Code/User/*
 
 # fish
-!home/.config/fish/config.fish
+!src/.config/fish/config.fish
 
 # helix
-!home/.config/helix/**/*
+!src/.config/helix/**/*
 
 # hypr
-!home/.config/hypr/**/*
+!src/.config/hypr/**/*
 
 # kitty
-!home/.config/kitty/**/*
+!src/.config/kitty/**/*
 
 # niri
-!home/.config/niri/**/*.kdl
+!src/.config/niri/**/*.kdl
 
 # noctalia
-!home/.config/noctalia/templates/*
-!home/.config/noctalia/*
+!src/.config/noctalia/templates/*
+!src/.config/noctalia/*
 
 # qimgv
-!home/.config/qimgv/qimgv.conf
+!src/.config/qimgv/qimgv.conf
 
 # starship
-!home/.config/starship/*
-!home/.config/starship.toml
+!src/.config/starship/*
+!src/.config/starship.toml
 
 # vesktop
-!home/.config/vesktop/settings/quickCss.css
-!home/.config/vesktop/themes/*.css
+!src/.config/vesktop/settings/quickCss.css
+!src/.config/vesktop/themes/*.css
 
 # xdg-desktop-portal
-!home/.config/xdg-desktop-portal/portals.conf
-!home/.config/xdg-desktop-portal-termfilechooser/config
+!src/.config/xdg-desktop-portal/portals.conf
+!src/.config/xdg-desktop-portal-termfilechooser/config
 
 # yazi
-!home/.config/yazi/**/*
+!src/.config/yazi/**/*
 
-!home/.config/user-dirs.dirs
-!home/.config/mimeapps.list
+!src/.config/user-dirs.dirs
+!src/.config/mimeapps.list
 
-!home/.local/bin/*
+!src/.local/bin/*
 
-!home/Pictures/Avatar/*
-!home/Pictures/Wallpapers/**/*
+!src/Pictures/Avatar/*
+!src/Pictures/Wallpapers/**/*
