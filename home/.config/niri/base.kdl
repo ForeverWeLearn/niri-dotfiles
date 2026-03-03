@@ -30,6 +30,7 @@ input {
     touchpad {
         tap
         natural-scroll
+        scroll-factor 0.3
     }
 
     keyboard {
