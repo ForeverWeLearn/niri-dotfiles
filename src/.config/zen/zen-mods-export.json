@@ -1,0 +1,52 @@
+{
+  "906c6915-5677-48ff-9bfc-096a02a72379": {
+    "id": "906c6915-5677-48ff-9bfc-096a02a72379",
+    "name": "Floating Status Bar",
+    "description": "Mod for Zen Browser that detaches the status bar from the bottom left corner of the browser window.",
+    "homepage": "https://github.com/AmirhBeigi/zen-floating-statusbar/",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/906c6915-5677-48ff-9bfc-096a02a72379/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/906c6915-5677-48ff-9bfc-096a02a72379/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/906c6915-5677-48ff-9bfc-096a02a72379/image.png",
+    "author": "AmirhBeigi",
+    "version": "1.0.0",
+    "tags": [],
+    "createdAt": "2024-10-06",
+    "updatedAt": "2025-01-26",
+    "enabled": true
+  },
+  "81fcd6b3-f014-4796-988f-6c3cb3874db8": {
+    "id": "81fcd6b3-f014-4796-988f-6c3cb3874db8",
+    "name": "Zen Context Menu",
+    "description": "Declutter your right click menu, hide options you don't need",
+    "homepage": "https://github.com/KiKaraage/ZenMods/",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/81fcd6b3-f014-4796-988f-6c3cb3874db8/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/81fcd6b3-f014-4796-988f-6c3cb3874db8/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/81fcd6b3-f014-4796-988f-6c3cb3874db8/image.png",
+    "author": "KiKaraage",
+    "version": "3.1",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/81fcd6b3-f014-4796-988f-6c3cb3874db8/preferences.json",
+    "tags": [
+      "context menu"
+    ],
+    "createdAt": "2024-10-06",
+    "updatedAt": "2025-08-26",
+    "enabled": true
+  },
+  "5941aefd-67b0-453d-9b62-9071a31cbb0d": {
+    "id": "5941aefd-67b0-453d-9b62-9071a31cbb0d",
+    "name": "Smaller Compact Mode",
+    "description": "Reduce the height of the compact sidebar.",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/5941aefd-67b0-453d-9b62-9071a31cbb0d/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/5941aefd-67b0-453d-9b62-9071a31cbb0d/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/5941aefd-67b0-453d-9b62-9071a31cbb0d/image.png",
+    "author": "n7itro",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/5941aefd-67b0-453d-9b62-9071a31cbb0d/preferences.json",
+    "version": "1.0.5",
+    "tags": [
+      "tabs"
+    ],
+    "createdAt": "2024-08-31",
+    "updatedAt": "2025-10-29",
+    "enabled": true
+  }
+}
