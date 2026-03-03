@@ -10,10 +10,13 @@
 
 &nbsp;
 &nbsp;
+&nbsp;
 
 <h3 align="center">_ PREVIEW _</h3><br/>
 
-<video src="./assets/vids/niri-preview-720p.mp4" muted autoplay loop playsinline title="Niri Preview"></video>
+
+https://github.com/user-attachments/assets/72197b9d-2108-4cb3-aa4b-b07da3fd7e30
+
 
 &nbsp;
 
