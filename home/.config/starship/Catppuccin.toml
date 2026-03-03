@@ -157,7 +157,7 @@ show_milliseconds = true
 format = " $duration "
 style = "bg:lavender"
 disabled = false
-show_notifications = true
+show_notifications = false
 min_time_to_notify = 60000
 
 [palettes.catppuccin_mocha]
