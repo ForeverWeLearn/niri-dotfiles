@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "button": false,
+    "enabled": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 16.0,
+  "buffer_font_weight": 500.0,
+  "buffer_line_height": {
+    "custom": 2.0
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "minimap": {
+    "show": "never"
+  },
+  "project_panel": {
+    "button": true
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "soft_wrap": "editor_width",
+  "status_bar": {
+    "experimental.show": false
+  },
+  "sticky_scroll": {
+    "enabled": false
+  },
+  "tab_bar": {
+    "show": false,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "terminal": {
+    "cursor_shape": "bar",
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 14.0,
+    "font_weight": 500.0,
+    "line_height": {
+      "custom": 1.8
+    }
+  },
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Frappé",
+    "mode": "system"
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_onboarding_banner": false,
+    "show_sign_in": false,
+    "show_user_menu": false,
+    "show_user_picture": false
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 16,
+  "ui_font_weight": 500.0,
+  "window_decorations": "server"
+}

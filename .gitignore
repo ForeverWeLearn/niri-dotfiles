@@ -50,6 +50,9 @@
 # yazi
 !src/.config/yazi/**/*
 
+# zed
+!src/.config/zed/*
+
 # zen
 !src/.config/zen/*
 
