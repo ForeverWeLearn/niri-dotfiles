@@ -13,7 +13,7 @@
 
 <h3 align="center">_ PREVIEW _</h3><br/>
 
-<video src="./assets/vids/Niri%20Preview%20720p.mp4" muted autoplay loop playsinline title="Niri Preview"></video>
+<video src="./assets/vids/niri-preview-720p.mp4" muted autoplay loop playsinline title="Niri Preview"></video>
 
 &nbsp;
 
