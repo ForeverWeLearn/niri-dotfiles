@@ -1,0 +1,40 @@
+/* Hide sidebar top buttons */
+#zen-sidebar-top-buttons {
+  visibility: collapse;
+}
+
+/* Hide sidebar bottom buttons */
+#zen-sidebar-foot-buttons {
+  display: none !important;
+}
+
+/* Hide location bar */
+#nav-bar {
+  position: absolute !important;
+}
+
+/* Hide workspace indicator */
+.zen-current-workspace-indicator {
+  visibility: collapse;
+}
+
+/* Hide separator */
+.pinned-tabs-container-separator {
+  visibility: collapse;
+}
+
+/* Align sidebar */
+#titlebar {
+  margin-top: 6px;
+}
+
+/* Align media controls */
+#zen-media-controls-toolbar {
+  &>toolbaritem {
+    --zen-media-control-bg: var(--zen-primary-color) !important;
+    left: 2px !important;
+    right: 2px !important;
+    bottom: 2px !important;
+    width: auto !important;
+  }
+}

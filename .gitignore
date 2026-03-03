@@ -50,6 +50,9 @@
 # yazi
 !src/.config/yazi/**/*
 
+# zen
+!src/.config/zen/*
+
 !src/.config/user-dirs.dirs
 !src/.config/mimeapps.list
 
