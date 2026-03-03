@@ -13,20 +13,16 @@
 
 <h3 align="center">_ PREVIEW _</h3><br/>
 
-<p align="center">
-    <video width="80%" autoplay loop>
-        <source src="./assets/vids/Niri Preview 720p.mp4" type="video/mp4" />
-    </video>
-</p>
+[![Preview](./assets/imgs/screenshot-00.png)](./assets/vids/Niri%20Preview%20720p.mp4)
 
 &nbsp;
 
 <p align="center">
-    <img src="./assets/imgs/nautilus-01.png" alt="Nautilus" width="50%"/></br>
+    <img src="./assets/imgs/nautilus-01.png" alt="Nautilus" width="65%"/></br>
     <sup>File Manager (Nautilus)</sup>
 </p>
 <p align="center">
-    <img src="./assets/imgs/zen-01.png" alt="Zen Browser" width="80%"/></br>
+    <img src="./assets/imgs/zen-01.png" alt="Zen Browser" width="90%"/></br>
     <sup>Zen Browser</sup>
 </p>
 <p align="center">
