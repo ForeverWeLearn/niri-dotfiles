@@ -30,7 +30,7 @@ input {
     touchpad {
         tap
         natural-scroll
-        scroll-factor 0.3
+        scroll-factor 0.6
     }
 
     keyboard {
@@ -40,7 +40,7 @@ input {
 
 output "eDP-1" {
     mode "3840x2160@60"
-    scale 2.5
+    scale 2.0
 }
 
 environment {
