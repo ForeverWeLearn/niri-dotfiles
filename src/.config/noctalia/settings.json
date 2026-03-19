@@ -27,10 +27,10 @@
         "viewMode": "list"
     },
     "audio": {
-        "cavaFrameRate": 30,
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
+        "spectrumFrameRate": 30,
         "visualizerType": "mirrored",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
@@ -47,6 +47,7 @@
         "contentPadding": 2,
         "density": "spacious",
         "displayMode": "always_visible",
+        "enableExclusionZoneInset": true,
         "floating": false,
         "fontScale": 1,
         "frameRadius": 16,
@@ -54,6 +55,9 @@
         "hideOnOverview": false,
         "marginHorizontal": 12,
         "marginVertical": 12,
+        "middleClickAction": "none",
+        "middleClickCommand": "",
+        "middleClickFollowMouse": false,
         "monitors": [
             "eDP-1"
         ],
@@ -62,6 +66,9 @@
         "outerCorners": true,
         "position": "left",
         "reverseScroll": false,
+        "rightClickAction": "controlCenter",
+        "rightClickCommand": "",
+        "rightClickFollowMouse": true,
         "screenOverrides": [
         ],
         "showCapsule": false,
@@ -78,17 +85,19 @@
                     "enableScrollWheel": true,
                     "focusedColor": "primary",
                     "followFocusedScreen": false,
-                    "groupedBorderOpacity": 0,
+                    "fontWeight": "bold",
+                    "groupedBorderOpacity": 0.5,
                     "hideUnoccupied": false,
                     "iconScale": 0.75,
                     "id": "Workspace",
                     "labelMode": "none",
                     "occupiedColor": "primary",
                     "pillSize": 0.6,
-                    "showApplications": false,
+                    "showApplications": true,
+                    "showApplicationsHover": true,
                     "showBadge": true,
                     "showLabelsOnlyWhenOccupied": false,
-                    "unfocusedIconsOpacity": 0.7000000000000001
+                    "unfocusedIconsOpacity": 0.75
                 }
             ],
             "left": [
@@ -173,7 +182,6 @@
             }
         ],
         "diskPath": "/",
-        "openAtMouseOnBarRightClick": true,
         "position": "close_to_bar_button",
         "shortcuts": {
             "left": [
@@ -197,6 +205,7 @@
     "desktopWidgets": {
         "enabled": false,
         "gridSnap": false,
+        "gridSnapScale": false,
         "monitorWidgets": [
             {
                 "name": "eDP-1",
@@ -213,7 +222,7 @@
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
         "dockType": "static",
-        "enabled": true,
+        "enabled": false,
         "floatingRatio": 1,
         "groupApps": false,
         "groupClickAction": "cycle",
@@ -249,6 +258,7 @@
         "clockStyle": "digital",
         "compactLockScreen": false,
         "dimmerOpacity": 0,
+        "enableBlurBehind": true,
         "enableLockScreenCountdown": false,
         "enableLockScreenMediaControls": false,
         "enableShadows": true,
@@ -341,6 +351,7 @@
     },
     "network": {
         "airplaneModeEnabled": false,
+        "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "bluetoothRssiPollIntervalMs": 10000,
@@ -358,6 +369,10 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "nightTemp": "4000"
+    },
+    "noctaliaPerformance": {
+        "disableDesktopWidgets": true,
+        "disableWallpaper": true
     },
     "notifications": {
         "backgroundOpacity": 1,
@@ -466,7 +481,7 @@
         "showHeader": false,
         "showKeybinds": true
     },
-    "settingsVersion": 54,
+    "settingsVersion": 57,
     "systemMonitor": {
         "batteryCriticalThreshold": 5,
         "batteryWarningThreshold": 20,
@@ -515,9 +530,11 @@
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
+        "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",
         "settingsPanelSideBarCardStyle": false,
-        "tooltipsEnabled": false
+        "tooltipsEnabled": false,
+        "translucentWidgets": false
     },
     "wallpaper": {
         "automationEnabled": false,
