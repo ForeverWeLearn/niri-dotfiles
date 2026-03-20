@@ -1,0 +1,23 @@
+#workbench\.parts\.panel > div.composite.title.has-composite-bar.has-actions > div.title-actions > div > div > ul > li.action-item.disabled {
+    display: none !important;
+}
+
+#workbench\.parts\.panel > div.composite.title.has-composite-bar.has-actions > div.global-actions {
+    display: none !important;
+}
+
+#workbench\.views\.service\.panel\.48fb0c2c-9cc6-49dd-8909-48a4585cd2bd > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.pane-body.shell-integration.integrated-terminal.wide > div.monaco-split-view2.horizontal > div.monaco-scrollable-element > div.split-view-container > div > div > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div > div > div > canvas.xterm-decoration-overview-ruler {
+    display: none !important;
+}
+
+#workbench\.parts\.panel > div.composite.title.has-composite-bar.has-actions > div.composite-bar-container > div > div > ul > li.action-item.checked > a {
+    color: var(--vscode-tab-activeForeground) !important;
+}
+
+#workbench\.parts\.panel > div.composite.title.has-composite-bar.has-actions > div.composite-bar-container > div > div > ul > li.action-item.checked > div.active-item-indicator {
+    display: none !important;
+}
+
+.monaco-workbench {
+    --vscode-scrollbar-background: var(--vscode-editor-background) !important;
+}
